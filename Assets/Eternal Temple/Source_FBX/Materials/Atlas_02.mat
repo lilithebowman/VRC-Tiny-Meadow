@@ -27,19 +27,19 @@ Material:
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _EMISSION
-  - _GLOSSYREFLECTIONS_OFF
   - _NORMALMAP
   - _SPECULARHIGHLIGHTS_OFF
   m_InvalidKeywords:
+  - _ENABLE_GEOMETRIC_SPECULAR_AA
   - _SPECGLOSSMAP
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _LightmapType
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -90,17 +90,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1
+    - _Bicubic: 0
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.03
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EnableGeometricSpecularAA: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossinessSource: 0
-    - _GlossyReflections: 0
+    - _GlossyReflections: 1
+    - _LightmapType: 0
     - _Metallic: 0
     - _Mode: 1
     - _OcclusionStrength: 1
@@ -112,6 +115,8 @@ Material:
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SpecSource: 0
+    - _SpecularAAScreenSpaceVariance: 0.1
+    - _SpecularAAThreshold: 0.2
     - _SpecularHighlights: 0
     - _SrcBlend: 1
     - _Surface: 0
