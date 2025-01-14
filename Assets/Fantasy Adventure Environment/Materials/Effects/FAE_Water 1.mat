@@ -392,8 +392,8 @@ Material:
     - _NormalMapFlipbookScale: {r: 3, g: 3, b: 0, a: 0}
     - _NormalMapScale0: {r: 20, g: 20, b: 0, a: 0}
     - _NormalMapScale1: {r: 25, g: 25, b: 0, a: 0}
-    - _NormalMapScroll0: {r: 0.1, g: 0.1, b: 0, a: 0}
-    - _NormalMapScroll1: {r: -0.1, g: 0.1, b: 0, a: 0}
+    - _NormalMapScroll0: {r: 0.00256, g: 0.00256, b: 0, a: 0}
+    - _NormalMapScroll1: {r: -0.0025, g: 0.0025, b: 0, a: 0}
     - _Offset: {r: 0, g: 1, b: 0, a: 0}
     - _OpacityMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _ReflCubeRotation: {r: 0, g: 0, b: 0, a: 0}

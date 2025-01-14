@@ -15,16 +15,17 @@ Material:
   - _ALPHATEST_ON
   - _BICUBIC_SAMPLING_ON
   - _EMISSION
+  - _MIRROR_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
   disabledShaderPasses:
   - ALWAYS
-  m_LockedProperties: 
+  m_LockedProperties: _DetailWorkflow
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -256,7 +257,7 @@ Material:
     - _GSAA: 1
     - _GSAAStrength: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.64
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _GradientBrightness: 1
     - _HDRReflShad: 1
@@ -273,11 +274,11 @@ Material:
     - _MaskClipValue: 0.5
     - _MaxWindStrength: 1
     - _MetaCull: 0
-    - _Metallic: 0.703
+    - _Metallic: 0
     - _MetallicChannel: 2
     - _MetallicMult: 0
     - _MirrorNormalOffsetSwizzle: 0
-    - _MirrorToggle: 0
+    - _MirrorToggle: 1
     - _Mode: 0
     - _NaNLmao: 0
     - _OcclusionChannel: 0
@@ -358,7 +359,7 @@ Material:
     - _UseFresnel: 1
     - _UseHeight: 0
     - _UseLegacyVertexColors: 0
-    - _UseSmoothness: 0
+    - _UseSmoothness: 1
     - _UseSpeedTreeWind: 0
     - _VertexBaseColor: 0
     - _WindAmplitudeMultiplier: 10
@@ -369,7 +370,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.74509805}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _DetailScroll: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
